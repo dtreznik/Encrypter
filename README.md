@@ -20,11 +20,17 @@ It uses a custom encryption scheme and is **not secure for real-world use**. Do 
 
 ## Project Structure
 Encrypter/
+
 ├── Source.c # Main program logic
+
 ├── util.c # Helper function implementations
+
 ├── util.h # Function declarations
+
 ├── README.md # Project documentation
+
 ├── LICENSE # MIT License
+
 ├── encrypter.exe # Compiled executable (Windows)
 
 ## For End Users (Windows)
@@ -37,21 +43,22 @@ encrypter.exe
 For Developers (Build from Source)
 To compile the program yourself, use GCC (MinGW on Windows, Linux, or macOS):
 # Linux / macOS
+```bash
 gcc Source.c util.c -o encrypter
-
+```
 # Windows
+```bash
 gcc Source.c util.c -o encrypter.exe
+``
 Then run:
-
-bash
-Copy code
 # Linux / macOS
+```bash
 ./encrypter
-
+```
 # Windows
+```bash
 encrypter.exe
-Including the build instructions helps developers who want to modify or extend the project.
-
+```
 Goals
 Practice C programming
 
