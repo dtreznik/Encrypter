@@ -50,6 +50,6 @@ int main(int argc, char * argv[]) {
 		printf("Done");
 	}
 	fclose(filePointer);
-	
+	free(fileContent);
 	return 0;
 }
