@@ -49,7 +49,7 @@ gcc Source.c util.c -o encrypter
 # Windows
 ```bash
 gcc Source.c util.c -o encrypter.exe
-``
+```
 Then run:
 # Linux / macOS
 ```bash
