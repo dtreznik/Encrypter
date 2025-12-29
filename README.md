@@ -42,24 +42,24 @@ encrypter.exe
 ```
 For Developers (Build from Source)
 To compile the program yourself, use GCC (MinGW on Windows, Linux, or macOS):
-# Linux / macOS
+## Linux / macOS
 ```bash
 gcc Source.c util.c -o encrypter
 ```
-# Windows
+## Windows
 ```bash
 gcc Source.c util.c -o encrypter.exe
 ```
 Then run:
-# Linux / macOS
+## Linux / macOS
 ```bash
 ./encrypter
 ```
-# Windows
+## Windows
 ```bash
 encrypter.exe
 ```
-Goals
+# Goals
 Practice C programming
 
 Learn basic encryption and hashing
