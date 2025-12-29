@@ -5,7 +5,7 @@
 #include "util.h"
 
 int main(int argc, char * argv[]) {
-	assert(argc == 4, "Invalid arguments provided ([PATH] [KEY] [MODE (E or D)]");
+	assert(argc == 4, "Invalid arguments provided ([PATH] [KEY] [MODE (E or D)])");
 	char* fileName = argv[1];
 	FILE* filePointer = fopen(fileName, "r");
 	assert(filePointer != NULL, "could not open file");
@@ -36,6 +36,7 @@ int main(int argc, char * argv[]) {
 		printf("Done");
 	}
 	else {
+		assert(argv[3][0] == 'D', "Invalid arguments provided ([PATH] [KEY] [MODE (E or D)])");
 		printf("Decrypting...");
 		const unsigned int hashRev = reverseNum(hashedKey);
 		for (int i = 0; i < fileLen; i++) {
