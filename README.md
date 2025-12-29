@@ -33,6 +33,7 @@ If you just want to run the program:
 2. Run it from the command line:
 ```bash
 encrypter.exe
+```
 For Developers (Build from Source)
 To compile the program yourself, use GCC (MinGW on Windows, Linux, or macOS):
 # Linux / macOS
